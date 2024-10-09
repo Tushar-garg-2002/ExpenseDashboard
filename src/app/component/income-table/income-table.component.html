@@ -1,0 +1,16 @@
+<div class="income-table">
+    <div class="heading">
+        <div *ngFor="let data of labels" class="heading-data">{{data}}</div>
+    </div>
+    <div class="data">
+        <div *ngFor="let data of value" class="row">
+            <div *ngFor="let label of labels" class="cell">
+                <ng-container *ngIf="label === 'amount'; else defaultTemplate">
+                {{ data[label] | currency:'INR' }}
+              </ng-container>
+              <ng-template #defaultTemplate>
+                {{ data[label] }}
+              </ng-template> </div>
+        </div>
+    </div>
+</div>

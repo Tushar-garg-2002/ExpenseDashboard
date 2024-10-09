@@ -1,0 +1,40 @@
+.table-container{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1%;
+    padding-right: 0;
+}
+.label{
+    position: sticky;
+    top:0;
+    z-index: 1;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color: azure;
+    font-weight: bold;
+    font-size: 1.5rem;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 1%;
+    box-sizing: border-box;
+}
+
+.data-rows{
+    display: grid;
+    margin-top: 2%;
+    max-height: 80%;
+    overflow-y: auto;
+    grid-template-columns: 30% 70%;
+}
+
+.inner-row{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.totals{
+    margin: 0.1%;
+    padding: 0.5%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color: rgb(204, 203, 203);
+}

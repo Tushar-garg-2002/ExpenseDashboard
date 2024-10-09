@@ -1,0 +1,34 @@
+<!-- <div class="expense-table">
+    <div *ngFor="let data of expenseLabel" class="expense-table-heading">
+        <div class="heading">{{data}}</div>
+    </div>
+    <div *ngFor="let data of expenses" class="expense-table-data-row">
+        <div class="data">{{ data.date }}</div>
+        <div class="data">{{ data.amount }}</div>
+        <div class="data">{{ data.description }}</div>
+    </div>
+</div> -->
+<div class="table">
+    <div *ngFor = "let data of getKeys(total)" [ngClass]="data" class="card" (click)="onCardClick(data)">
+        <div class="card-content" >
+            <div class="card-title">
+                {{ data }}
+            </div>
+            <div class="card-value">
+                {{ total[data] | currency:'INR' }}
+            </div>
+        </div>
+    </div>
+</div>
+<div class="content">
+    <div class="bar-graph">
+        <app-bar-graph  [value]="total"></app-bar-graph>
+    </div>
+    <div class = "category-table" (click)="onCardClick('category-table')">
+        <app-categorical-table></app-categorical-table>
+    </div>
+</div>
+
+
+
+<!-- <app-expense-table [expenses]="expenses"></app-expense-table> -->

@@ -1,0 +1,14 @@
+{
+    "type": "service_account",
+    "project_id": "expensedashboard",
+    "private_key_id": "e9cbb9addff6e493497ec8f53084ee4367282142",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCkX35ArQMWwqHc\nv4WHoh10yjBZzevrB19ChW8r6iEiJPD2GUiOQTebm65XdtpthUmm9F7gR/Q0KZyC\nJFi/PptR8G5mUXyafe3h5xWFOiy2cH34vTELZ62t5+QA8Q71/PfmXZhscDT+ajT6\ngcbthIHb7SKMMpZGzJpYJmElhNUZbvPcDwo8/Oghf0V8THGSQAtHMzx4kj3Goin0\nNVGVkUZxVuZxZSkKpBAfdJuaaJiYw9usKVwyQbJxhLEVHxkQHqvdoQ7ObQW10sUT\ne1fgUtxeCDIRM2ywlYDVPhncKx1o7wP25vwBwyeztXQ3AZvnj4jelRj2aCh78Som\nHBggpC+NAgMBAAECggEAG9RGHB2etQMJZAYyDZtrKMuVoZK9Y1qpbGoKfzEh4HXI\nLSZtNBaDG2+hdhH7m8jSBjf/+zF7fTxhUOBl/SUUp2wRSPX5Zm+1L4bQDDEkAlRr\n44nmjJOGYnftEKK/gXLNpt1IUe2ybzOcmiAQRcTmNo3AyGNFMaHw7MU8s904Nhif\nCAbe4d7am7Q397zBut3mzc5IODtoZa7etGRVsYik+2h6fgFKafCDeBf/48feQ6jM\nlQ83I6KVGUk7Ry3nH7saGp+q/1Gz3oxP11ZWC/h0w/jEjNml5SPhAa6zT3dmPc3t\nch+8c1nl0fN/pE6kyrFsgpeIPgb4D8oXVzqE9uhpWQKBgQDbPa77xttUW/uJ6Lax\nmb4ho6r41pCrvahQnEIYw8slcj3cmwM6NPv5FSKd/QBQwBx1HVoZyjKguxeh+xof\nt8UH2WC5rQV78AgO6SiFWqmj9xD+QBkD0mwDdOiCYm1oDYd7e9JfX3ELiYmy7wst\nhH7t9/pniiqXPX/HJlTF96iKKQKBgQC/7sETbwOIR8hSTmSXFxqBmNkXGRVA6YRd\nHNbHMYDDS2XBOYt4Ugttm/84e2wZFyj0jSQ9enKkYL8lttLKmS7IXe/gx3okLO46\nQRdlyG/RWPRXSvtNlZynz1QWH/gfJgYQ3n49MfVVfwEz1+PbJVksTK3bq/6r226e\n8DVSwvquxQKBgCARa7DkK1yxf59ybJaZuFfPSsjPCaY1PZNc58YbjXFSvn2wJs6y\nxVBvqPqW8R7emsr+mhk/nBwqgZBt3CpbhPRa9WzzQ+QW/fbAX+7xjfKvxsqJsZ7/\nflEbHo9DumEH6ZNET0cn/K8FVSDZGjd0M+S26ueOLCCnHDOTBb9XNE3RAoGBAJ3Y\nsz1STWtk7aCTDDMeMxRmKhPO8yXBZrRVJWYIlkcG2RaCRuubPf7VDp7bElnILEyD\nT0yoSWRalJlltBIezNTIPKF2LENYGEwcgCubHirjp3+rEOYLpxxzbEoN3LdxRAfX\nk6asUYIQw2JpqODv5FiEb298EiQwgNeB4bjA1f2pAoGAUqIH/2+HzdhqBfNMoWlE\n6DVdZ9Q2tn08u0c+tFOJNpyk72CPz7qOuG4Fa8wpPmqGjfIy9SQQkl4AtDqrv8ax\nQOReuTWVcBp3ViNaDI4VyVangLaibQaE3gMnpEhIikdOh3ynlCUkCxgLefFcntfR\nqO3jQwkFzMZ4kCKvkeprAQQ=\n-----END PRIVATE KEY-----\n",
+    "client_email": "tushargargexpenses@expensedashboard.iam.gserviceaccount.com",
+    "client_id": "109502198200840557394",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/tushargargexpenses%40expensedashboard.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
+  

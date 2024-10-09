@@ -1,0 +1,50 @@
+.expense-table {
+    width: 100%; 
+    border-collapse: collapse;
+    margin: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.heading {
+    background-color: #007BFF; 
+    color: white; 
+    font-weight: bold; 
+    display: grid; 
+    grid-template-columns: repeat(3, minmax(100px, 1fr)); 
+    padding: 10px; 
+}
+
+.heading-data {
+    text-align: center; 
+}
+
+.data {
+    display: grid; 
+    grid-template-columns: repeat(3, minmax(100px, 1fr)); 
+}
+
+.row {
+    background-color: #f8f9fa; 
+    border-bottom: 1px solid #dee2e6; 
+    display: contents; 
+}
+
+.cell {
+    padding: 10px;
+    text-align: center; 
+    border-right: 1px solid #dee2e6; 
+}
+
+.cell:last-child {
+    border-right: none; 
+}
+
+.row:hover {
+    background-color: #e9ecef; 
+}
+
+@media (max-width: 600px) {
+    .heading, .data {
+        grid-template-columns: 1fr; 
+    }
+}

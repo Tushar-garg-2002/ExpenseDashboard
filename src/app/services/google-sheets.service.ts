@@ -12,10 +12,10 @@ export class GoogleSheetsService {
     this.initiateService()
   }
   async initiateService(){
-    this.auth= new GoogleAuth({
-      keyFile:"./src/app/keys.json",
-      scopes: ['https://www.googleapis.com/auth/spreadsheets.readonly'],
-    })
+    // this.auth= new GoogleAuth({
+    //   keyFile:"./src/app/keys.json",
+    //   scopes: ['https://www.googleapis.com/auth/spreadsheets.readonly'],
+    // })
     const authClient:JWT = await this.auth.getClient() as JWT
       this.sheets = google.sheets({
         version:'v4',
